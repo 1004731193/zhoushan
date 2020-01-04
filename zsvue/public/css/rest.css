@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+ul{
+  list-style: none;
+}
+input,button{
+  outline: none;
+}
+button{
+  cursor:pointer;
+  border:none;
+}
+img{
+  vertical-align:middle;
+}
+.hide{
+  display:none;
+}
+/* 字体溢出 */
+.font-hide{
+  width:162px;height:13px;
+  font-size:13px;
+  line-height:13px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+/* 灰色背景 */
+.bg_gray{
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:100%;
+  background:#f0f0f0;
+}
